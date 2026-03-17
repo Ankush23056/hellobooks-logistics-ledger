@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --color-bg-primary: #FAFAFA;
+  --color-bg-card: #FFFFFF;
+  --color-border: #E5E5E5;
+  --color-text-primary: #111111;
+  --color-text-secondary: #888888;
+  --color-text-tertiary: #BBBBBB;
+  --color-emerald: #10B981;
+  --color-amber: #F59E0B;
+  --color-rose: #F43F5E;
+  --color-accent: #F0F0F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FAFAFA;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4D4D4;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #AAAAAA;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.pulse-dot {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.input-underline {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+  outline: none;
+  color: #111111;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.3s ease;
+}
+.input-underline:focus {
+  border-bottom-color: #111111;
+}
+.input-underline::placeholder {
+  color: #BBBBBB;
+}
