@@ -1,6 +1,13 @@
-# LOGIX.SYSTEMS / HelloBooks Logistics Ledger
+# HelloBooks Logistics Ledger
 
 A high-performance, minimalist accounting dashboard designed to transform passive bookkeeping into **operational intelligence** for the logistics industry.
+
+---
+
+Demo live: https://ankush23056.github.io/hellobooks-logistics-ledger/
+
+
+Github live : https://github.com/Ankush23056/hellobooks-logistics-ledger.git
 
 ---
 
@@ -61,6 +68,4 @@ src/
 
 ---
 
-## 📄 License
-
-MIT
+Author : Ankush kumar
